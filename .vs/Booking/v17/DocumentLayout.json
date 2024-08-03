@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\vuejs\\Booking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|d:\\workspace\\vuejs\\booking\\server\\server\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|solutionrelative:server\\server\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|d:\\workspace\\vuejs\\booking\\server\\server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|solutionrelative:server\\server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|d:\\workspace\\vuejs\\booking\\server\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF662DE3-D9F2-4CE7-8CCE-1F5F0A6760D0}|Server\\Server\\Server.csproj|solutionrelative:server\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Server\\Server\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Server\\Server\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:49:26.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Server\\Server\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Server\\Server\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:40:22.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Server\\Server\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Workspace\\vuejs\\Booking\\Server\\Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Server\\Server\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:18:27.287Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

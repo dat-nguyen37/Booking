@@ -12,6 +12,12 @@ import SearchView from '@/views/SearchView.vue'
 import ServiceView from '@/views/ServiceView.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import ProfileView from '@/views/ProfileView.vue'
+import Account from '@/components/Account.vue'
+import Order from '@/components/Order.vue'
+import ChangePass from '@/components/ChangePass.vue'
+import Addresses from '@/components/Address/Addresses.vue'
+import OrderDetail from '@/components/OrderDetail.vue'
 
 Vue.use(VueRouter)
 
@@ -111,7 +117,53 @@ const routes=[
     meta: {
         title: 'Liên hệ',
       }
-},
+  },
+  {
+    path:'/Account',
+    component: ProfileView,
+      children: [
+        {
+          path: '',
+          name:'account',
+          component: Account,
+          meta: {
+            title: 'Trang khách hàng',
+          },
+        },
+        {
+          path: 'orders',
+          name:'orders',
+          component: Order,
+          meta: {
+            title: 'Trang đơn hàng',
+          },
+        },
+        {
+          path: 'orders/:id',
+          name:'orderdetail',
+          component: OrderDetail,
+          meta: {
+            title: 'Chi tiết đơn hàng',
+          },
+        },
+        {
+          path: 'changepassword',
+          name:'changepassword',
+          component: ChangePass,
+          meta: {
+            title: 'Thay đổi mật khẩu',
+          },
+        },
+        {
+          path: 'addresses',
+          name:'addresses',
+          component: Addresses,
+          meta: {
+            title: 'Sổ địa chỉ',
+          },
+        },
+      ]
+  },
 ]
 
 const router=new VueRouter({

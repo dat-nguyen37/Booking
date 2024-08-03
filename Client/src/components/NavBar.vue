@@ -3,8 +3,14 @@
         <div class="w-full h-6 flex text-white bg-yellow-600 justify-end items-center lg:justify-between px-5">
             <p class="hidden lg:block">Chào mừng bạn đến với Bean Hotel!</p>
             <ul class="flex lg:mr-[5rem]">
-                <li class="border-r-2 border-r-white px-4"><a href="/Register">Đăng ký</a></li>
-                <li class="border-r-2 border-r-white px-4"><a href="/Login">Đăng nhập</a></li>
+                <div v-if="$store.state.user" class="flex">
+                    <li @click="Logout" class="border-r-2 border-r-white px-4"><a href="">Đăng xuất</a></li>
+                    <li class="border-r-2 border-r-white px-4"><a href="/Account">Tài khoản</a></li>
+                </div>
+                <div v-else class="flex">
+                    <li class="border-r-2 border-r-white px-4"><a href="/Register">Đăng ký</a></li>
+                    <li class="border-r-2 border-r-white px-4"><a href="/Login">Đăng nhập</a></li>
+                </div>
                 <li class="border-r-2 border-r-white px-4 hidden lg:block"><a href="/Cart"><font-awesome-icon icon="shopping-cart" class="px-1"/>Giỏ hàng (0)</a></li>
                 <li class="px-4 relative"><a href="#" @click="toggleSearch"><font-awesome-icon :icon="search ? ['fas', 'times-circle'] : ['fas', 'search']" class="px-1"/>Tìm kiếm</a></li>
                 <div v-if="search" class="absolute w-full md:w-1/2 shadow-2xl p-4 bg-white top-6 right-0 z-10 border text-black">
@@ -66,6 +72,9 @@ export default({
         }
     },
     methods:{
+        Logout(){
+            this.$store.commit('SET_LOGOUT')
+        },
         toggleModal() {
         this.modal = !this.modal;
         },
